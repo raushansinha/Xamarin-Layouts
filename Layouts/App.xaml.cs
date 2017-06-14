@@ -8,7 +8,7 @@ namespace Layouts
         {
             InitializeComponent();
 
-            MainPage = new LayoutsPage();
+            MainPage = new StackImage();
         }
 
         protected override void OnStart()
