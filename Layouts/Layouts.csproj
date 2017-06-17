@@ -39,6 +39,21 @@
     <EmbeddedResource Include="StackImage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="GridPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridPhonePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridWelcomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AbsoultePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AbsoulteLayoutExerciseOnePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -56,6 +71,21 @@
     </Compile>
     <Compile Include="StackImage.xaml.cs">
       <DependentUpon>StackImage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GridPage.xaml.cs">
+      <DependentUpon>GridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GridPhonePage.xaml.cs">
+      <DependentUpon>GridPhonePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GridWelcomePage.xaml.cs">
+      <DependentUpon>GridWelcomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AbsoultePage.xaml.cs">
+      <DependentUpon>AbsoultePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AbsoulteLayoutExerciseOnePage.xaml.cs">
+      <DependentUpon>AbsoulteLayoutExerciseOnePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

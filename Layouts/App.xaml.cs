@@ -8,7 +8,7 @@ namespace Layouts
         {
             InitializeComponent();
 
-            MainPage = new StackImage();
+            MainPage = new AbsoulteLayoutExerciseOnePage();
         }
 
         protected override void OnStart()
